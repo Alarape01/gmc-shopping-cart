@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+
+    <header>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="grid-cart-items">
+
+            <div class="cart-item">
+
+                <h2 class="item-title text-align:center">Dingo Meaty 1</h2>
+                <h3 class="item-price text-align:center">$15</h3>
+
+                <div class="item-image">
+                    <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+                </div>
+
+                <div class="item-properties text-align:center">
+                    <button class="quantity-btn decrease">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn increase">+</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+
+            </div>
+
+            <div class="cart-item">
+
+                <h2 class="item-title text-align:center">Dingo Meaty 2</h2>
+                <h3 class="item-price text-align:center">$25</h3>
+
+                <div class="item-image">
+                    <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+                </div>
+
+                <div class="item-properties text-align:center">
+                    <button class="quantity-btn decrease">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn increase">+</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="grid-cart-total text-align:center">
+            <h2 class="total">Total: $<span class="total-price">0</span></h2>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© Tonics Copyright</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
